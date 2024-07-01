@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Popular.css";
 // import data_product from "../assests/data";
 import Item from "../Items/Item";
-const url = "http://localhost:4000";
+const url = "https://ecommerce-web-backend-7o09.onrender.com/";
 const Popular = () => {
   const [data_product, setData_product] = useState([]);
   useEffect(() => {
