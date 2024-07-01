@@ -5,7 +5,7 @@ import multer from "multer";
 import path from "path";
 import cors from "cors";
 import { type } from "os";
-
+const url ='https://ecommerce-web-backend-7o09.onrender.com';
 const app = express();
 
 app.use(express.json());
@@ -41,7 +41,7 @@ app.use("/images", express.static("upload/images"));
 app.post("/upload", upload.single("product"), (req, res) => {
   res.json({
     success: 1,
-    image_url: `http://localhost:${port}/images/${req.file.filename}`,
+    image_url: `${url}/images/${req.file.filename}`,
   });
 });
 
