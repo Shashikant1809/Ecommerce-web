@@ -2,7 +2,7 @@ import React, { createContext, useEffect, useState } from "react";
 // import all_product from "../Components/assests/all_product";
 
 const ShopContext = createContext(null);
-const url = "http://localhost:4000";
+const url = "https://ecommerce-web-backend-7o09.onrender.com/";
 const getDefaultCarts = () => {
   let cart = {};
   for (let index = 1; index < 300 + 1; index++) {
