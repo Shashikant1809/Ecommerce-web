@@ -3,7 +3,7 @@ import "./NewCollections.css";
 import Item from "../Items/Item";
 import new_collection from "../assests/new_collections";
 
-const url = "https://ecommerce-web-backend-7o09.onrender.com/";
+const url = "https://ecommerce-web-backend-7o09.onrender.com";
 const NewCollection = () => {
   let [new_collection, setNewCollection] = useState([]);
 
