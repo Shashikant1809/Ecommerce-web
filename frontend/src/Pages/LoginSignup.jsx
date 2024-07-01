@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./LoginSignUp.css";
 import { toast } from "react-toastify";
-const url = "https://ecommerce-web-backend-7o09.onrender.com/";
+const url = "https://ecommerce-web-backend-7o09.onrender.com";
 const LoginSignup = () => {
   const [state, setState] = useState("signUp");
   const [formData, setFormData] = useState({
