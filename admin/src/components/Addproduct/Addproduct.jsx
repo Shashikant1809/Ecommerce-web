@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Addproduct.css";
 import upload_area from "../../assets/upload_area.svg";
 import { toast } from "react-toastify";
-const url = "https://ecommerce-web-backend-7o09.onrender.com/";
+const url = "https://ecommerce-web-backend-7o09.onrender.com";
 const Addproduct = () => {
   const [image, setImage] = useState(false);
   const [productDetails, setProductDetails] = useState({
